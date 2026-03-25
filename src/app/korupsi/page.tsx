@@ -2,20 +2,8 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import {
-  AlertCircle,
-  Search,
-  TrendingDown,
-  Users,
-  FileText,
-  Shield,
-  BarChart3,
-  Activity,
-  Award,
-  Lock,
-} from "lucide-react";
-import {
-  BarChart,
+import { AlertCircle, Search, TrendingDown, Users, FileText, BarChart3, Award, Lock, BookOpen } from 'lucide-react';
+import { BarChart,
   Bar,
   LineChart,
   Line,
@@ -26,8 +14,7 @@ import {
   ResponsiveContainer,
   PieChart,
   Pie,
-  Cell,
-} from "recharts";
+  Cell, } from "recharts";
 
 const corruptionData = {
   kpk: {

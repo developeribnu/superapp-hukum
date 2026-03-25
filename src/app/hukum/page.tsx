@@ -2,15 +2,7 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import {
-  Scale,
-  BookOpen,
-  Search,
-  AlertCircle,
-  Gavel,
-  FileText,
-  Lock,
-} from "lucide-react";
+import { Scale, BookOpen, AlertCircle } from 'lucide-react';
 
 const legalGuide = {
   kuhp: {

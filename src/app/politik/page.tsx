@@ -2,17 +2,7 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import {
-  Vote,
-  Search,
-  BookOpen,
-  Users,
-  Building2,
-  TrendingUp,
-  Calendar,
-  AlertCircle,
-  Globe,
-} from "lucide-react";
+import { Vote, Search, BookOpen, AlertCircle } from 'lucide-react';
 
 const politicsData = {
   partaiPolitik: {
